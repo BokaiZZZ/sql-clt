@@ -6,6 +6,7 @@ This is the third individual project to generate a script that queries a databas
 
 This project is to provide introduction to data exploration and analysis using SQL language, which should be a must tool for every data scientist - both for getting access to data, but more interesting, as a simple tool for advance data analysis. Some of the queries referred to [Data Analysis using SQL](https://www.kaggle.com/code/dimarudov/data-analysis-using-sql/notebook)
 
+Check the demo video on [Youtube](https://youtu.be/1Cho0C7LyN0)
 
 ### Database: [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/soccer)
 
