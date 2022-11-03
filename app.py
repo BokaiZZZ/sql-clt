@@ -70,7 +70,7 @@ def show_teams():
 
 @cli.command()
 def show_matches():
-    """Find first 10 detailed matches in the database"""
+    """Find first 10 detailed matches information in the database"""
     conn = connect_database()
     detailed_matches = pd.read_sql(
         """SELECT Match.id, 
@@ -98,7 +98,7 @@ def show_matches():
 
 @cli.command()
 def season_info():
-    """Find detailed information for each league in each season"""
+    """Find detailed analysis results for each league in each season"""
     conn = connect_database()
     leages_by_season = pd.read_sql(
         """SELECT Country.name AS country_name, 
